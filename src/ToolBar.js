@@ -15,14 +15,14 @@ class ToolBar extends Component {
   }
 
   selectHandle(e){
-    this.setState({num: e.target.value}, function(){console.log(this.state)});
+    this.setState({num: e.target.value})
   }
 
   jumpToFnc(e){
     if(this.state.num === 'select'){
       alert('please choose a number')
     } else {
-      this.setState({fnc: e.target.value}, function(){console.log(this.state)});
+      this.setState({fnc: e.target.value})
       alert(`num = ${this.state.num} & target = ${e.target.value}`)
     }
 

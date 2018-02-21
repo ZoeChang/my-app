@@ -1,4 +1,20 @@
 
+.form-col {
+  display: flex;
+}
+
+.form-col-right {
+  flex: 1;
+}
+
+.form-col-left {
+  flex: 3;
+}
+
+.selectedOption {
+  margin: 0 5px;
+}
+
 /* React.js default */
 .App {
   text-align: center;
